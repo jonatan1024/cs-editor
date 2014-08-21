@@ -1,0 +1,28 @@
+#ifdef <hlrad>
+  #define -waddir "D:\csko\valve"
+  #define -waddir "D:\csko\cstrike"
+#endif
+
+#define -console 0
+#define -low
+#define -threads 4
+
+#ifdef <hlcsg> // CSG
+//#define -nowadtextures
+  #define -wadautodetect
+  #define -cliptype precise
+#endif
+
+#ifdef <hlbsp> // BSP
+  #define -chart
+#endif
+
+#ifdef <hlvis> // VIS
+//#define -full
+#endif
+
+#ifdef <hlrad> // RAD
+//#define -extra
+//#define -customshadowwithbounce
+//#define -rgbtransfers
+#endif

@@ -1,0 +1,7 @@
+data -> addons/amxmodx/data
+maps -> maps
+models -> models
+modules -> addons/amxmodx/modules
+plugins -> addons/amxmodx/plugins
+
+start server on map 'ed_init', join spectators and say '/ed'
