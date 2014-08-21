@@ -41,3 +41,4 @@ src/Release/*
 modules/cs-editor_amxx.exp
 modules/cs-editor_amxx.lib
 modules/cs-editor_amxx.pdb
+*.suo
