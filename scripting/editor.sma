@@ -272,7 +272,7 @@ public ed_menu_brush(id){
 	menu_additem(menu,"Scale","ed_menu_brush")
 	menu_additem(menu,"\dMorph","ed_menu_brush")
 	menu_additem(menu,"Delete","ed_menu_brush")
-	ed_menu_addblanks(menu,"ed_menu_bruhs",3)
+	ed_menu_addblanks(menu,"ed_menu_brush",3)
 	menu_additem(menu,"Editor menu","ed_menu")
 	
 	cl_menu_cur[id] = max(min(cl_menu_cur[id],5),0)
